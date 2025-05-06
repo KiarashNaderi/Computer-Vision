@@ -1,20 +1,22 @@
-# 🖐️ Hand Tracking Game using Mediapipe + Streamlit
+# 🍉 Fruit Ninja (Hand Tracking Edition)
 
-This is a fun and useful game that tracks your hand using Mediapipe and lets you interact with objects on screen using only your fingers!
+This is a fun and interactive game built with **Streamlit**, **OpenCV**, and **Mediapipe**.  
+Use your **index finger** to slice falling fruits in real time — no mouse or keyboard required!
 
-## ✨ Features
-- Real-time hand tracking
-- Object interaction with finger
-- Scoring system
-- Streamlit-based web app
+## 🎮 How to Play
 
-## 📦 Requirements
-- Python 3.7+
-- streamlit
-- opencv-python
-- mediapipe
-- streamlit-webrtc
+- A green fruit appears and moves upward.
+- Use your **index finger** to touch/slice the fruit.
+- You gain 1 point per fruit.
+- After **60 seconds**, the game ends.
+- Score **10 or more points** to be declared a **Winner**!
 
-Install dependencies:
-```bash
-pip install -r requirements.txt
+## 🛠️ Tech Stack
+
+- Python
+- Streamlit
+- Streamlit WebRTC
+- OpenCV
+- Mediapipe
+
+
